@@ -78,18 +78,3 @@ function infext_slider_init()
 	do_action( 'infext_slider_init' );
 }
 add_action( 'infinity_engine_loaded', 'infext_slider_init' );
-
-/**
- * Handle activation
- *
-function infext_slider_activate()
-{
-	// load upgrade tools
-	require_once( 'infext-slider-upgrade.php' );
-	// make sure its initialized
-	infext_slider_init();
-	// run upgrader
-	infext_slider_upgrade();
-}
-add_action( 'activate_' . INFEXT_SLIDER_PLUGIN_BASENAME, 'infext_slider_activate' );
-*/
