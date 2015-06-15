@@ -6,7 +6,7 @@ Description: Infinity Slider is a simple content slider extension for the Infini
 Author: Marshall Sorenson (MrMaz)
 Author URI: http://marshallsorenson.com
 License: GNU GENERAL PUBLIC LICENSE 3.0 http://www.gnu.org/licenses/gpl.txt
-Version: 1.0
+Version: 1.0b1
 Text Domain: infext-slider
 */
 
@@ -22,7 +22,7 @@ Text Domain: infext-slider
 // *** DO NOT MODIFY THESE ***
 
 // Configuration
-define( 'INFEXT_SLIDER_VERSION', '1.0' );
+define( 'INFEXT_SLIDER_VERSION', '1.0b1' );
 define( 'INFEXT_SLIDER_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 
 // Core Paths
