@@ -17,3 +17,12 @@ Infinity Slider is a simple content slider extension for the Infinity Theme Engi
 == Upgrade Notice ==
 
 == Changelog ==
+
+= 1.0b2 =
+
+* Bug
+  * [INFSLI-2] - Missing bxSlider option "slideWidth" which is required for horizontal carousels
+
+= 1.0b1 =
+
+* Initial release
