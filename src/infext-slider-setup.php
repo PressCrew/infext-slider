@@ -189,6 +189,15 @@ function infext_slider_localize_script()
 			'speed' => 600
 		);
 
+		// get width option
+		$width = infext_slider_get_width();
+
+		// did we get a width?
+		if ( false === empty( $width ) ) {
+			// yep, override it
+			$options[ 'slideWidth' ] = $width;
+		}
+
 		// get time option
 		$time = infext_slider_get_time();
 
